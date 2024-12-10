@@ -27,7 +27,7 @@ input {
 .search-container {
   position: relative;
   width: 300px;
-  text-align: center;
+  text-align: left;
 }
 
 ul {
@@ -37,8 +37,8 @@ ul {
   position: absolute;
   top: 40px;
   width: 100%;
-  background: white;
-  border: 1px solid #ccc;
+  background: rgb(248, 182, 0);
+  border: 1px solid #eae8ee;
   border-radius: 5px;
   max-height: 150px;
   overflow-y: auto;
@@ -54,13 +54,17 @@ ul li {
   cursor: pointer;
 }
 ul li:hover {
-  background: #ffebd8;
+  background: #fd820f;
 }
 
 input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #fd0404;
   border-radius: 5px;
+}
+
+strong {
+  font-weight: bold;
 }
