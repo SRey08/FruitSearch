@@ -1,10 +1,10 @@
-* {
-  /* box-sizing: border-box; */
-}
+/* * {
+ 
+} */
 
-:focus {
-  /* TODO */
-}
+/* :focus {
+  
+} */
 
 body {
   margin: 0;
@@ -28,16 +28,17 @@ input {
   position: relative;
   width: 300px;
 }
-.search-container input,
+/* .search-container input,
 .search-container .suggestions {
-  /* TODO */
+ 
 }
-.search-container input {
-  /* TODO */
-}
-.search-container .suggestions {
-  /* TODO */
-}
+/* .search-container input {
+ 
+} */
+
+/* .search-container .suggestions {
+  
+}  */
 
 ul {
   list-style-type: none;
