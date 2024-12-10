@@ -3,44 +3,73 @@
 }
 
 :focus {
- /* TODO */
-}
-
-body {
   /* TODO */
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100v;
+}
+
 input {
- /* TODO */
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .search-container {
- /* TODO */
+  position: relative;
+  width: 300px;
 }
 .search-container input,
 .search-container .suggestions {
   /* TODO */
 }
 .search-container input {
- /* TODO */
+  /* TODO */
 }
 .search-container .suggestions {
-   /* TODO */
+  /* TODO */
 }
 
 ul {
-  /* TODO */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 100;
+  display: no;
 }
 ul.has-suggestions {
-  /* TODO */
+  display: block;
 }
+
 ul li {
-  /* TODO */
+  padding: 10px;
+  cursor: pointer;
 }
 ul li:hover {
-  /* TODO */
+  background: #ffebd8;
 }
 
 input {
-   /* TODO */
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
