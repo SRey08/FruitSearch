@@ -43,7 +43,7 @@ ul {
   max-height: 150px;
   overflow-y: auto;
   z-index: 100;
-  display: no;
+  display: none;
 }
 ul.has-suggestions {
   display: block; /* Show when there are suggestions */

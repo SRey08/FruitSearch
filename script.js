@@ -9,7 +9,12 @@ function search(str) {
 }
 
 function searchHandler(e) {
-	const inputVal = e.target.value; // Get user input
+	const inputVal = e.target.value.trim(); // Get user input and trim spaces
+	if (inputVal === '') {
+		suggestions.innerHTML = ''; // Clear suggestions
+		suggestions.classList.remove('has-suggestions'); // Hide suggestions
+		return;
+	}
 	const results = search(inputVal); // Get filtered results
 	showSuggestions(results, inputVal); // Update suggestions list
 }
